@@ -17,4 +17,8 @@ func main()  {
 	for name, age := range map2 {
 		fmt.Printf("Name: %v\nAge: %v\n\n", name, age)
 	}
+
+	for i, v := range slice {
+		fmt.Printf("Index: %v\nValue: %v\n\n", i, v)
+	}
 }
